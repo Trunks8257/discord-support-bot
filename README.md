@@ -1,6 +1,6 @@
 # Soporte
 Este es un ejemplo de un bot de Discord de soporte hecho por Trunks#8257.
-Solo hay que descargarlo y cambiar el archivo config.json a vuestra elección.
+Solo hay que descargarlo y cambiar el archivo config.json a vuestra elección (`npm install` antes que nada).
 ## Funcionamiento
 - El usuario que quiera contactar con el equipo de soporte del servidor deberá enviar un mensaje directo al bot con su pregunta o problema.
 - Se creará un canal en la categoría especificada en `config.json` con el nombre del usuario y su tag (muy importante, no cambiar el tema del canal).
