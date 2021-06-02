@@ -3,5 +3,5 @@
 "parent": "id de la categoría de soporte", 
 "role": "id del rol de soporte",
 "prefix": "prefijo",
-"token": "token de tu bot"
+"token": "token de tu bot o dotenv si vas a usar .env"
 }

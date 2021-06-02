@@ -6,6 +6,7 @@ client.commands = new Discord.Collection();
 client.config = require('./config.json')
 const fs = require('fs')
 
+require('dotenv').config();
 
 const commandFiles = fs
   .readdirSync("./commands/")
@@ -26,4 +27,4 @@ fs.readdir('./events/', (err, files) => {
   });
 });
 
-client.login(client.config.token);
+client.login(client.config.token === 'dotenv' ? process.env.TOKEN : client.config.token);
